@@ -1,0 +1,12 @@
+.ar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn-ar{
+    width: 100%;
+    margin: 0px 2px 0px 2px;
+    font-size: 30px;
+}
