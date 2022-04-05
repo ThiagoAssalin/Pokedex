@@ -49,7 +49,10 @@ export default function Pokedex() {
           alt={poke.name}
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`}
         />
-        <div></div>
+        <div>
+          <p>{//poke.types[0].type.name
+          }</p>
+        </div>
       </div>
       <BtnAvVo nextPoke={nextPoke} previusPoke={previusPoke}></BtnAvVo>
     </div>
