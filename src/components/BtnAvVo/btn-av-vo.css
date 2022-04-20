@@ -1,12 +1,21 @@
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .ar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .btn-ar{
     width: 100%;
     margin: 0px 2px 0px 2px;
     font-size: 30px;
+}
+.btn-cap{
+    margin-top: 10px;
 }
