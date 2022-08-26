@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import "./app.css";
+import "./App.css";
 import Pokedex from "./components/Pokedex/Pokedex";
 import { PokeProvider } from "./components/Services/Context";
 
