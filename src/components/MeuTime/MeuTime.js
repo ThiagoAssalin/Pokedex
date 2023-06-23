@@ -3,8 +3,9 @@ import "./meu-time.css";
 import { Context } from "../Services/Context";
 
 export default function MeuTime() {
-  const [poke, setPoke] = useState([]);
+  const [poke, setPoke] = useState([""]);
   const [att, setAtt] = useContext(Context)
+  
   
   useEffect(() => {
     const pokeList = localStorage.getItem("time");
@@ -24,7 +25,8 @@ export default function MeuTime() {
       
     <nav className="time-poke">
         <h1>Meu time</h1>
-        <ul>
+
+        {poke && <ul>
           {poke.map((time) => {
             return (
               <li key={time.id}>
@@ -43,8 +45,8 @@ export default function MeuTime() {
                 
             );
           })}
-        </ul>
-      
+        </ul> } 
+        
     </nav>
     
   );

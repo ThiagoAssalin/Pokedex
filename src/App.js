@@ -5,6 +5,7 @@ import Pokedex from "./components/Pokedex/Pokedex";
 import { PokeProvider } from "./components/Services/Context";
 
 function App() {
+  
   return (
     <div>
       <PokeProvider>

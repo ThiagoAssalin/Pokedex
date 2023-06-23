@@ -12,7 +12,7 @@ export default function Header(){
                 <label htmlFor= "checkbox-menu">
                     <img src={poke} alt="pokebola" id="pokebola"/>
                 </label>
-                <MeuTime/>    
+                <MeuTime/>   
             </div>
             <h1>Pokedex</h1>
         </div>
